@@ -115,6 +115,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Experiments\3\Experiment3.aspx" />
+    <Content Include="Experiments\4\Experiment4.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -284,6 +285,13 @@
     </Compile>
     <Compile Include="Experiments\3\Experiment3.aspx.designer.cs">
       <DependentUpon>Experiment3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\4\Experiment4.aspx.cs">
+      <DependentUpon>Experiment4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\4\Experiment4.aspx.designer.cs">
+      <DependentUpon>Experiment4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
