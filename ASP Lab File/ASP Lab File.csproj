@@ -120,6 +120,8 @@
     <Content Include="Experiments\6\Experiment6.aspx" />
     <Content Include="Experiments\7\Experiment7.aspx" />
     <Content Include="Experiments\8\Experiment8.aspx" />
+    <Content Include="Experiments\9\Experiment9.aspx" />
+    <Content Include="Experiments\9\UserSavedPreferences.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -324,6 +326,20 @@
     </Compile>
     <Compile Include="Experiments\8\Experiment8.aspx.designer.cs">
       <DependentUpon>Experiment8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\9\Experiment9.aspx.cs">
+      <DependentUpon>Experiment9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\9\Experiment9.aspx.designer.cs">
+      <DependentUpon>Experiment9.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\9\UserSavedPreferences.aspx.cs">
+      <DependentUpon>UserSavedPreferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\9\UserSavedPreferences.aspx.designer.cs">
+      <DependentUpon>UserSavedPreferences.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
