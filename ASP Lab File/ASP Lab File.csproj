@@ -116,6 +116,9 @@
     <Content Include="Default.aspx" />
     <Content Include="Experiments\3\Experiment3.aspx" />
     <Content Include="Experiments\4\Experiment4.aspx" />
+    <Content Include="Experiments\5\Experiment5.aspx" />
+    <Content Include="Experiments\6\Experiment6.aspx" />
+    <Content Include="Experiments\7\Experiment7.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -292,6 +295,27 @@
     </Compile>
     <Compile Include="Experiments\4\Experiment4.aspx.designer.cs">
       <DependentUpon>Experiment4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\5\Experiment5.aspx.cs">
+      <DependentUpon>Experiment5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\5\Experiment5.aspx.designer.cs">
+      <DependentUpon>Experiment5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\6\Experiment6.aspx.cs">
+      <DependentUpon>Experiment6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\6\Experiment6.aspx.designer.cs">
+      <DependentUpon>Experiment6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\7\Experiment7.aspx.cs">
+      <DependentUpon>Experiment7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\7\Experiment7.aspx.designer.cs">
+      <DependentUpon>Experiment7.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
