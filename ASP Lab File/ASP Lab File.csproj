@@ -114,6 +114,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Experiments\10\Experiment10.aspx" />
+    <Content Include="Experiments\10\LoggedInPage.aspx" />
     <Content Include="Experiments\3\Experiment3.aspx" />
     <Content Include="Experiments\4\Experiment4.aspx" />
     <Content Include="Experiments\5\Experiment5.aspx" />
@@ -284,6 +286,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\10\Experiment10.aspx.cs">
+      <DependentUpon>Experiment10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\10\Experiment10.aspx.designer.cs">
+      <DependentUpon>Experiment10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\10\LoggedInPage.aspx.cs">
+      <DependentUpon>LoggedInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\10\LoggedInPage.aspx.designer.cs">
+      <DependentUpon>LoggedInPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Experiments\3\Experiment3.aspx.cs">
       <DependentUpon>Experiment3.aspx</DependentUpon>
