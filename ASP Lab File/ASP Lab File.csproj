@@ -114,8 +114,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="ErrorPageDef.aspx" />
     <Content Include="Experiments\10\Experiment10.aspx" />
     <Content Include="Experiments\10\LoggedInPage.aspx" />
+    <Content Include="Experiments\12\Experiment12.aspx" />
+    <Content Include="Experiments\13\Experiment13.aspx" />
+    <Content Include="Experiments\14\Experiment14.aspx" />
     <Content Include="Experiments\3\Experiment3.aspx" />
     <Content Include="Experiments\4\Experiment4.aspx" />
     <Content Include="Experiments\5\Experiment5.aspx" />
@@ -287,6 +291,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ErrorPageDef.aspx.cs">
+      <DependentUpon>ErrorPageDef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPageDef.aspx.designer.cs">
+      <DependentUpon>ErrorPageDef.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Experiments\10\Experiment10.aspx.cs">
       <DependentUpon>Experiment10.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -300,6 +311,27 @@
     </Compile>
     <Compile Include="Experiments\10\LoggedInPage.aspx.designer.cs">
       <DependentUpon>LoggedInPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\12\Experiment12.aspx.cs">
+      <DependentUpon>Experiment12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\12\Experiment12.aspx.designer.cs">
+      <DependentUpon>Experiment12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\13\Experiment13.aspx.cs">
+      <DependentUpon>Experiment13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\13\Experiment13.aspx.designer.cs">
+      <DependentUpon>Experiment13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\14\Experiment14.aspx.cs">
+      <DependentUpon>Experiment14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\14\Experiment14.aspx.designer.cs">
+      <DependentUpon>Experiment14.aspx</DependentUpon>
     </Compile>
     <Compile Include="Experiments\3\Experiment3.aspx.cs">
       <DependentUpon>Experiment3.aspx</DependentUpon>
