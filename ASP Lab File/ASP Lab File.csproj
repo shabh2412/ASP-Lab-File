@@ -63,6 +63,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -120,6 +121,9 @@
     <Content Include="Experiments\12\Experiment12.aspx" />
     <Content Include="Experiments\13\Experiment13.aspx" />
     <Content Include="Experiments\14\Experiment14.aspx" />
+    <Content Include="Experiments\15\Experiment15.aspx" />
+    <Content Include="Experiments\16\Experiment16.aspx" />
+    <Content Include="Experiments\17\Experiment17.aspx" />
     <Content Include="Experiments\3\Experiment3.aspx" />
     <Content Include="Experiments\4\Experiment4.aspx" />
     <Content Include="Experiments\5\Experiment5.aspx" />
@@ -153,6 +157,14 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Sample.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Sample.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Sample.dbml.layout">
+      <DependentUpon>Sample.dbml</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
@@ -333,6 +345,28 @@
     <Compile Include="Experiments\14\Experiment14.aspx.designer.cs">
       <DependentUpon>Experiment14.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Experiments\15\Experiment15.aspx.cs">
+      <DependentUpon>Experiment15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\15\Experiment15.aspx.designer.cs">
+      <DependentUpon>Experiment15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\16\Experiment16.aspx.cs">
+      <DependentUpon>Experiment16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\16\Experiment16.aspx.designer.cs">
+      <DependentUpon>Experiment16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Experiments\16\ProductDataAccessLayer.cs" />
+    <Compile Include="Experiments\17\Experiment17.aspx.cs">
+      <DependentUpon>Experiment17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Experiments\17\Experiment17.aspx.designer.cs">
+      <DependentUpon>Experiment17.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Experiments\3\Experiment3.aspx.cs">
       <DependentUpon>Experiment3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -393,6 +427,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sample.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sample.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -433,6 +472,7 @@
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
